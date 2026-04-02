@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/playfair-display';
+@import '@fontsource-variable/lora';
+@import '@fontsource/special-elite';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-playfair: 'Playfair Display Variable', serif;
+	--font-lora: 'Lora Variable', serif;
+	--font-special: 'Special Elite', cursive;
+}
+
+body {
+	background-color: #f5f0e8;
+	color: #1a1a1a;
+}
