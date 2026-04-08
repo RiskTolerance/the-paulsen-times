@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import portrait from '$lib/assets/Mark-Portrait.jpg';
+	import portrait from '$lib/assets/Mark-Portrait.jpeg';
 	import square from '$lib/assets/Mark-Square.jpg';
 </script>
 
@@ -55,10 +55,10 @@
 				class="mb-4 font-lora text-lg leading-relaxed first-letter:float-left first-letter:mr-2 first-letter:text-6xl first-letter:leading-none first-letter:font-bold"
 			>
 				SIOUX FALLS — Paulsen Chief Strategy Officer Mark Smither stepped away from market
-				positioning and audience analytics this week to deliver what witnesses are calling "a
-				deeply personal, occasionally tearful, and frankly unstoppable" presentation on the 1975
-				Bruce Springsteen record <em>Born to Run</em>, an album he declared to be, quite simply,
-				one of the greatest ever made.
+				positioning and audience analytics this week to deliver what witnesses are calling "a deeply
+				personal, occasionally tearful, and frankly unstoppable" presentation on the 1975 Bruce
+				Springsteen record <em>Born to Run</em>, an album he declared to be, quite simply, one of
+				the greatest ever made.
 			</p>
 
 			<p class="mb-4 font-lora text-base leading-relaxed">
@@ -71,9 +71,9 @@
 			<p class="mb-4 font-lora text-base leading-relaxed">
 				Into that cultural vacuum, Smither explained, walked a young New Jersey songwriter on his
 				third and likely final chance. "Prior to that, he had two albums that really didn't do very
-				well," he said. "The record company was gonna drop him if he doesn't come up with
-				something. So Bruce Springsteen channels his experience living in New Jersey and creates
-				this sort of epic musical cinema."
+				well," he said. "The record company was gonna drop him if he doesn't come up with something.
+				So Bruce Springsteen channels his experience living in New Jersey and creates this sort of
+				epic musical cinema."
 			</p>
 		</div>
 	</article>
@@ -99,9 +99,9 @@
 				<h3 class="mb-3 font-playfair text-2xl font-bold">A Thirteen-Year-Old in Rapid City</h3>
 				<p class="mb-4 font-lora text-base leading-relaxed">
 					At the heart of Smither's remarks was a story about himself as a boy: thirteen years old,
-					living in Rapid City, South Dakota, and thoroughly unmoved by the radio. "Trying to
-					figure out what I really like in life, and nothing really appealed to me," he recalled.
-					Then came the album.
+					living in Rapid City, South Dakota, and thoroughly unmoved by the radio. "Trying to figure
+					out what I really like in life, and nothing really appealed to me," he recalled. Then came
+					the album.
 				</p>
 				<p class="mb-4 font-lora text-base leading-relaxed">
 					"It didn't sound like anything else on the radio. It didn't sound like anything before,
@@ -111,10 +111,9 @@
 				</p>
 				<p class="mb-4 font-lora text-base leading-relaxed">
 					More than the sound, he said, it was the words. "I opened up this album, and all the
-					lyrics are in there. I'm reading these lyrics like this is a poet that's trying to tell
-					me something." Smither paused, and then delivered what several Paulsen employees
-					described as the line of the afternoon: "The reason I'm a writer today is I opened up
-					this album."
+					lyrics are in there. I'm reading these lyrics like this is a poet that's trying to tell me
+					something." Smither paused, and then delivered what several Paulsen employees described as
+					the line of the afternoon: "The reason I'm a writer today is I opened up this album."
 				</p>
 			</div>
 		</div>
@@ -125,17 +124,18 @@
 		<h3 class="mb-3 font-playfair text-xl font-bold">"Who Do I Wanna Be?"</h3>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
-			Asked what <em>Born to Run</em> was really <em>about</em>, Smither offered a reading that would
-			not be out of place in a graduate seminar. "It just reflected what was going on in a lot of
-			people's lives," he said. "They felt like there needed to be something bigger. They wanted to
-			break out. They didn't trust institutions. They kind of had to rely on their own selves."
+			Asked what <em>Born to Run</em> was really <em>about</em>, Smither offered a reading that
+			would not be out of place in a graduate seminar. "It just reflected what was going on in a lot
+			of people's lives," he said. "They felt like there needed to be something bigger. They wanted
+			to break out. They didn't trust institutions. They kind of had to rely on their own selves."
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			"If you're a young person, thirteen, fourteen years old," he continued, "you just don't know
 			where you belong, and you don't know where you fit in. Until you hear something, or see
-			something, or experience something that says, <em>I get this. This appeals to me, and I want to
-			learn more about it</em> — that's what this did for me."
+			something, or experience something that says, <em
+				>I get this. This appeals to me, and I want to learn more about it</em
+			> — that's what this did for me."
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
@@ -155,9 +155,9 @@
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			The address took an emotional turn when Smither recounted the great missed opportunity of his
-			young life. The year was 1984. <em>Born in the USA</em> had just dropped. Smither, by his own
-			admission, was "busted ass broke" and had just gotten back from an Elton John show in Lincoln,
-			Nebraska, when his friends announced they were heading right back to Lincoln to see The Boss.
+			young life. The year was 1984. <em>Born in the USA</em> had just dropped. Smither, by his own admission,
+			was "busted ass broke" and had just gotten back from an Elton John show in Lincoln, Nebraska, when
+			his friends announced they were heading right back to Lincoln to see The Boss.
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
@@ -201,10 +201,10 @@
 					the timing of a man who has given many presentations in his life.
 				</p>
 				<p class="mb-4 font-lora text-base leading-relaxed">
-					Before concluding, Smither also took the opportunity to remind employees of an
-					unorthodox performance management system he maintains privately. "Each of you are on a
-					mental ladder in my head," he warned the assembled staff. "And you rise and fall, like,
-					every day, like stocks." He declined to share current standings.
+					Before concluding, Smither also took the opportunity to remind employees of an unorthodox
+					performance management system he maintains privately. "Each of you are on a mental ladder
+					in my head," he warned the assembled staff. "And you rise and fall, like, every day, like
+					stocks." He declined to share current standings.
 				</p>
 			</div>
 
@@ -228,9 +228,9 @@
 	<section class="mb-8">
 		<p class="font-lora text-base leading-relaxed italic">
 			At press time, no fewer than four Paulsen employees were seen quietly adding
-			<em>Born to Run</em> to their streaming queues. Whether any of them will begin smoking
-			cigarettes, as a young Smither reportedly wanted to do upon first hearing the record's closing
-			track, is a development this paper will continue to monitor.
+			<em>Born to Run</em> to their streaming queues. Whether any of them will begin smoking cigarettes,
+			as a young Smither reportedly wanted to do upon first hearing the record's closing track, is a development
+			this paper will continue to monitor.
 		</p>
 	</section>
 
