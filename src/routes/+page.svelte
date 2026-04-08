@@ -1,6 +1,6 @@
 <script lang="ts">
 	import kramerImage from '$lib/assets/1.jpg';
-	import smitherImage from '$lib/assets/Mark-Portrait.jpg';
+	import smitherImage from '$lib/assets/Mark-Portrait.jpeg';
 	import { resolve } from '$app/paths';
 </script>
 
@@ -33,8 +33,8 @@
 				</a>
 			</h2>
 			<p class="mb-4 font-special text-sm text-neutral-600 italic">
-				Paulsen's Chief Strategy Officer makes the case for <em>Born to Run</em> — and for never
-				waiting to see your heroes live
+				Paulsen's Chief Strategy Officer makes the case for <em>Born to Run</em> — and for never waiting
+				to see your heroes live
 			</p>
 
 			<figure class="mb-4">
@@ -54,10 +54,10 @@
 				class="mb-4 font-lora text-base leading-relaxed first-letter:float-left first-letter:mr-2 first-letter:text-5xl first-letter:leading-none first-letter:font-bold"
 			>
 				SIOUX FALLS — Paulsen Chief Strategy Officer Mark Smither stepped away from market
-				positioning and audience analytics this week to deliver what witnesses are calling "a
-				deeply personal, occasionally tearful, and frankly unstoppable" presentation on the 1975
-				Bruce Springsteen record <em>Born to Run</em>, an album he declared to be, quite simply,
-				one of the greatest ever made.
+				positioning and audience analytics this week to deliver what witnesses are calling "a deeply
+				personal, occasionally tearful, and frankly unstoppable" presentation on the 1975 Bruce
+				Springsteen record <em>Born to Run</em>, an album he declared to be, quite simply, one of
+				the greatest ever made.
 			</p>
 
 			<a
