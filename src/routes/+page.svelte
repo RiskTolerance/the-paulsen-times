@@ -51,7 +51,7 @@
 		<!-- Lead Story (spans 2 cols) -->
 		<article class="md:col-span-2 md:border-r-2 md:border-black md:pr-8">
 			<p class="font-special text-xs tracking-[0.2em] text-red-800 uppercase">Lead Story</p>
-			<h2 class="mt-2 mb-3 font-playfair text-3xl leading-tight font-black md:text-4xl">
+			<h2 class="mt-2 mb-3 font-playfair text-3xl leading-tight font-black text-balance md:text-4xl">
 				<a href={resolve('/articles/smither-springsteen')} class="hover:underline">
 					CSO Mark Smither Delivers Stirring Sermon on the Gospel of Springsteen
 				</a>
@@ -105,7 +105,7 @@
 						/>
 					</div>
 				</figure>
-				<h3 class="mb-2 font-playfair text-xl leading-tight font-black">
+				<h3 class="mb-2 font-playfair text-xl leading-tight font-black text-balance">
 					<a href={resolve('/articles/missing-kramer-portrait')} class="hover:underline">
 						Beloved Kramer Portrait Vanishes From Paulsen Marketing Agency
 					</a>

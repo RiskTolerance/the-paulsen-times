@@ -59,10 +59,9 @@
 	<!-- Main Headline -->
 	<article class="mb-8">
 		<h2
-			class="mb-4 border-b-2 border-black pb-4 text-center font-playfair text-4xl leading-snug font-black md:text-5xl"
+			class="mb-4 border-b-2 border-black pb-4 text-center font-playfair text-4xl leading-snug font-black text-balance md:text-5xl"
 		>
-			Beloved Kramer Portrait Vanishes<br />
-			From Paulsen Marketing Agency
+			Beloved Kramer Portrait Vanishes From Paulsen Marketing Agency
 		</h2>
 
 		<p class="mb-6 text-center font-special text-sm text-neutral-600 italic">

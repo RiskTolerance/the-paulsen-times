@@ -6,7 +6,7 @@
 
 	const title = 'The Paulsen Post — CSO Mark Smither on Bruce Springsteen';
 	const description =
-		'Paulsen\u2019s Chief Strategy Officer delivers a stirring, occasionally tearful sermon on Born to Run \u2014 and the $30 ticket he\u2019ll never get back.';
+		'Paulsen\u2019s Chief Strategy Officer delivers a stirring sermon on Born to Run \u2014 the $30 ticket he couldn\u2019t afford in 1984, and the concert thirty years later that finally brought him to tears.';
 	const ogImage = page.url.origin + '/summary_large_image.png';
 	const canonical = page.url.origin + page.url.pathname;
 </script>
@@ -60,10 +60,9 @@
 	<!-- Headline -->
 	<article class="mb-8">
 		<h2
-			class="mb-4 border-b-2 border-black pb-4 text-center font-playfair text-4xl leading-snug font-black md:text-5xl"
+			class="mb-4 border-b-2 border-black pb-4 text-center font-playfair text-4xl leading-snug font-black text-balance md:text-5xl"
 		>
-			CSO Mark Smither Delivers Stirring<br />
-			Sermon on the Gospel of Springsteen
+			CSO Mark Smither Delivers Stirring Sermon on the Gospel of Springsteen
 		</h2>
 
 		<p class="mb-6 text-center font-special text-sm text-neutral-600 italic">
