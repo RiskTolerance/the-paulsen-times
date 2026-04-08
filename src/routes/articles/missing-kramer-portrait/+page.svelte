@@ -2,10 +2,32 @@
 	import image1 from '$lib/assets/1.jpg';
 	import image2 from '$lib/assets/2.jpg';
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
+
+	const title = 'The Paulsen Post — MISSING: Beloved Kramer Portrait';
+	const description =
+		'Authorities are calling it the most brazen act of art theft since the Isabella Stewart Gardner heist. Coworker Brett left \u201Cdevastated.\u201D';
+	const ogImage = page.url.origin + '/summary_large_image.png';
+	const canonical = page.url.origin + page.url.pathname;
 </script>
 
 <svelte:head>
-	<title>The Paulsen Post — MISSING: Beloved Kramer Portrait</title>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<link rel="canonical" href={canonical} />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="The Paulsen Post" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:url" content={canonical} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:alt" content="Paulsen employee searching for the missing Kramer portrait" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <div class="mx-auto max-w-5xl px-4 py-8">

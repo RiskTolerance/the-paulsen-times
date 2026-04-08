@@ -1,11 +1,33 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 	import portrait from '$lib/assets/Mark-Portrait.jpeg';
 	import square from '$lib/assets/Mark-Square.jpg';
+
+	const title = 'The Paulsen Post — CSO Mark Smither on Bruce Springsteen';
+	const description =
+		'Paulsen\u2019s Chief Strategy Officer delivers a stirring, occasionally tearful sermon on Born to Run \u2014 and the $30 ticket he\u2019ll never get back.';
+	const ogImage = page.url.origin + '/summary_large_image.png';
+	const canonical = page.url.origin + page.url.pathname;
 </script>
 
 <svelte:head>
-	<title>The Paulsen Post — CSO Mark Smither on Bruce Springsteen</title>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<link rel="canonical" href={canonical} />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="The Paulsen Post" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:url" content={canonical} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:alt" content="Chief Strategy Officer Mark Smither addresses the agency" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <div class="mx-auto max-w-5xl px-4 py-8">

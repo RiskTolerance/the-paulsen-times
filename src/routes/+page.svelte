@@ -2,10 +2,34 @@
 	import kramerImage from '$lib/assets/1.jpg';
 	import smitherImage from '$lib/assets/Mark-Portrait.jpeg';
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
+
+	const title = 'The Paulsen Post — Front Page';
+	const description =
+		'All the news that\u2019s fit to print (and some that isn\u2019t). A Paulsen Marketing Agency publication.';
+	const ogImage = page.url.origin + '/summary_large_image.png';
+	const canonical = page.url.origin + page.url.pathname;
 </script>
 
 <svelte:head>
-	<title>The Paulsen Post — Front Page</title>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<link rel="canonical" href={canonical} />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="The Paulsen Post" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:url" content={canonical} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:alt" content="The Paulsen Post front page" />
+
+	<!-- Twitter / X -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <div class="mx-auto max-w-5xl px-4 py-8">
