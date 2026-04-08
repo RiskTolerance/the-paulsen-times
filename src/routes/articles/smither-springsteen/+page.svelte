@@ -22,7 +22,10 @@
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={canonical} />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:alt" content="Chief Strategy Officer Mark Smither addresses the agency" />
+	<meta
+		property="og:image:alt"
+		content="Chief Strategy Officer Mark Smither addresses the agency"
+	/>
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
@@ -134,7 +137,8 @@
 					More than the sound, he said, it was the words. "I opened up this album, and all the
 					lyrics are in there. I'm reading these lyrics like this is a poet that's trying to tell me
 					something." Smither paused, and then delivered what several Paulsen employees described as
-					the line of the afternoon: "The reason I'm a writer today is I opened up this album."
+					the line of the afternoon: "The reason I'm a writer today is [because] I opened up this
+					album."
 				</p>
 			</div>
 		</div>
