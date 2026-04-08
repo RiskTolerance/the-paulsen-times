@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>The Paulsen Times — MISSING: Beloved Kramer Portrait</title>
+	<title>The Paulsen Post — MISSING: Beloved Kramer Portrait</title>
 </svelte:head>
 
 <div class="mx-auto max-w-5xl px-4 py-8">
@@ -18,7 +18,7 @@
 	<header class="border-b-4 border-double border-black pb-4 text-center">
 		<p class="font-special text-xs tracking-[0.3em] uppercase">Sioux Falls, South Dakota</p>
 		<h1 class="my-2 font-playfair text-6xl leading-tight font-black md:text-7xl">
-			The Paulsen Times
+			The Paulsen Post
 		</h1>
 		<div class="flex items-center justify-between border-t border-black pt-2 text-xs">
 			<span class="font-special">Vol. XLII, No. 1</span>
@@ -168,7 +168,7 @@
 	<!-- Footer -->
 	<footer class="border-t-4 border-double border-black pt-4 text-center">
 		<p class="font-special text-xs text-neutral-500">
-			&copy; 2026 The Paulsen Times &bull; "All the news that's fit to print (and some that isn't)"
+			&copy; 2026 The Paulsen Post &bull; "All the news that's fit to print (and some that isn't)"
 			&bull; A Paulsen Marketing Agency Publication
 		</p>
 	</footer>
