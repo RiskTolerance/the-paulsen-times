@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
+	import heroImage from '$lib/assets/webinar_images/webinar-1.png';
+	import merrittImage from '$lib/assets/webinar_images/matts-short-pants.png';
 
 	const title = 'The Paulsen Post — Steffen and Merritt Chart a Field Guide for Rural Trust';
 	const description =
@@ -71,14 +73,14 @@
 			developers losing rural projects are losing them long before the first public hearing
 		</p>
 
-		<!-- Hero placeholder -->
+		<!-- Hero -->
 		<figure class="mb-6">
-			<div
-				class="flex aspect-[16/9] items-center justify-center overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md"
-			>
-				<span class="font-special text-xs tracking-[0.3em] text-neutral-500 uppercase">
-					[ Photograph to come — speakers on broadcast ]
-				</span>
+			<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
+				<img
+					src={heroImage}
+					alt="Elise Steffen and Matt Merritt on the broadcast set in front of a slide reading Changing the Conversation"
+					class="h-auto w-full grayscale"
+				/>
 			</div>
 			<figcaption class="mt-2 font-special text-xs text-neutral-600 italic">
 				Director of Partnerships Elise Steffen and Director of Public Relations Matt Merritt address
@@ -123,8 +125,8 @@
 					Perhaps the most distinctive idea in the broadcast was Merritt's framing of so-called
 					NIMBY opposition. The research Paulsen reviewed, he said, suggests that what looks like
 					reflexive resistance is usually a stand-in for a deeper, procedural complaint: <em
-						>I'm not part of this decision. I don't control the future of my town. My concerns
-						get dismissed.</em
+						>I'm not part of this decision. I don't control the future of my town. My concerns get
+						dismissed.</em
 					>
 				</p>
 				<p class="mb-4 font-lora text-base leading-relaxed">
@@ -141,18 +143,15 @@
 			</div>
 
 			<figure class="md:col-span-1">
-				<div
-					class="flex aspect-[3/4] items-center justify-center overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md"
-				>
-					<span
-						class="px-4 text-center font-special text-xs tracking-[0.3em] text-neutral-500 uppercase"
-					>
-						[ Photograph to come — Merritt mid-thesis ]
-					</span>
+				<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
+					<img
+						src={merrittImage}
+						alt="Matt Merritt seated mid-thesis, pants ending well above the shoes"
+						class="h-auto w-full grayscale"
+					/>
 				</div>
 				<figcaption class="mt-2 font-special text-xs text-neutral-600 italic">
-					Mr. Merritt, pictured mid-point. The Post's copy desk wishes to note, with great affection,
-					that the trousers are riding a touch high.
+					Mr. Merritt, pictured mid-point. The pants are committed to the bit.
 				</figcaption>
 			</figure>
 		</div>
@@ -163,8 +162,8 @@
 		<h3 class="mb-4 font-playfair text-2xl font-bold">The Eight Audiences</h3>
 		<p class="mb-6 font-lora text-base leading-relaxed">
 			Much of the field guide is given over to a taxonomy of the people a developer is actually
-			talking to in a rural community. Steffen walked through eight segments, each requiring its
-			own approach.
+			talking to in a rural community. Steffen walked through eight segments, each requiring its own
+			approach.
 		</p>
 
 		<div class="grid grid-cols-1 gap-x-8 gap-y-4 md:grid-cols-2">
@@ -201,8 +200,8 @@
 				<p class="font-special text-xs tracking-[0.2em] text-red-800 uppercase">No. 4</p>
 				<h4 class="mb-1 font-playfair text-lg font-bold">Environmental Advocates</h4>
 				<p class="font-lora text-sm leading-relaxed">
-					Quieter at the moment, but historically vocal. Want mitigation plans, habitat
-					restoration, and transparent environmental review that goes beyond legal box-checking.
+					Quieter at the moment, but historically vocal. Want mitigation plans, habitat restoration,
+					and transparent environmental review that goes beyond legal box-checking.
 				</p>
 			</div>
 
@@ -231,8 +230,8 @@
 				<h4 class="mb-1 font-playfair text-lg font-bold">Affected Nonparticipants</h4>
 				<p class="font-lora text-sm leading-relaxed">
 					Live with the project but receive no direct benefit — no land payment, no job. A large
-					group, often vocal because they feel excluded. Engage early; community benefit
-					agreements matter most here.
+					group, often vocal because they feel excluded. Engage early; community benefit agreements
+					matter most here.
 				</p>
 			</div>
 
@@ -240,9 +239,9 @@
 				<p class="font-special text-xs tracking-[0.2em] text-red-800 uppercase">No. 8</p>
 				<h4 class="mb-1 font-playfair text-lg font-bold">Institutional Stakeholders</h4>
 				<p class="font-lora text-sm leading-relaxed">
-					County commissioners, planning and zoning, public officials. Historically over-prioritized.
-					When their constituents turn, they turn — and that is when moratoriums and zoning changes
-					become weapons against the project.
+					County commissioners, planning and zoning, public officials. Historically
+					over-prioritized. When their constituents turn, they turn — and that is when moratoriums
+					and zoning changes become weapons against the project.
 				</p>
 			</div>
 		</div>
@@ -262,14 +261,14 @@
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			Once a neighbor declares a position publicly, she added, the position tends to stay declared.
 			Early communication is therefore not a courtesy but a structural necessity: it is the only
-			window in which the quietly-okay-with-it majority can speak before the loud opposition
-			arrives and intimidates them into silence.
+			window in which the quietly-okay-with-it majority can speak before the loud opposition arrives
+			and intimidates them into silence.
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			Merritt offered a corollary that landed harder than expected. Early enthusiasm from county
-			commissioners and planning officials, he warned, is not the same as community support.
-			"They love the macro stats," he said, "but if their constituents turn, they turn." Mistaking
+			commissioners and planning officials, he warned, is not the same as community support. "They
+			love the macro stats," he said, "but if their constituents turn, they turn." Mistaking
 			institutional support for the genuine article is, in his telling, one of the most common and
 			most expensive errors a developer can make.
 		</p>
@@ -285,16 +284,16 @@
 
 		<ul class="mb-2 space-y-3 font-lora text-base leading-relaxed">
 			<li class="border-l-2 border-red-800 pl-4">
-				<span class="font-bold">Don't "educate the public."</span> Meet their needs and answer
-				their questions. The verb itself, Merritt noted, is condescending.
+				<span class="font-bold">Don't "educate the public."</span> Meet their needs and answer their questions.
+				The verb itself, Merritt noted, is condescending.
 			</li>
 			<li class="border-l-2 border-red-800 pl-4">
-				<span class="font-bold">Don't talk about the "project timeline."</span> Talk about the
-				community's timeline.
+				<span class="font-bold">Don't talk about the "project timeline."</span> Talk about the community's
+				timeline.
 			</li>
 			<li class="border-l-2 border-red-800 pl-4">
-				<span class="font-bold">Don't label concerns "misinformation."</span> Treat them as
-				authentic questions you may simply have failed to answer.
+				<span class="font-bold">Don't label concerns "misinformation."</span> Treat them as authentic
+				questions you may simply have failed to answer.
 			</li>
 			<li class="border-l-2 border-red-800 pl-4">
 				<span class="font-bold">Don't seek "buy-in."</span> Pursue partnership and mutual benefit.
@@ -308,26 +307,26 @@
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			Asked how the framework applies to crisis communication, Merritt suggested that the better
-			label is <em>pre-crisis</em> communication. Anticipating pressure points and addressing them
-			early often prevents a crisis from forming at all. Mid-crisis, the same principles apply in
-			reverse: stop, breathe, return to listening, lower the temperature.
+			label is <em>pre-crisis</em> communication. Anticipating pressure points and addressing them early
+			often prevents a crisis from forming at all. Mid-crisis, the same principles apply in reverse: stop,
+			breathe, return to listening, lower the temperature.
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			On the practical question of how, exactly, one listens to a community, Steffen offered both
-			the formal and the informal. Surveys and focus sessions — including live virtual focus
-			groups, which Paulsen runs on its own platform — have their place. So does showing up where
-			people already are. "Farmers are always at the gas station at 9 AM," she observed. There is,
-			she said, no one-size-fits-all.
+			the formal and the informal. Surveys and focus sessions — including live virtual focus groups,
+			which Paulsen runs on its own platform — have their place. So does showing up where people
+			already are. "Farmers are always at the gas station at 9 AM," she observed. There is, she
+			said, no one-size-fits-all (perhaps referring to Matt's pants).
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
 			A question on the role of economic developers drew what amounted to a small thesis. The
-			relationship, Steffen said, is best understood as a three-legged stool of economic
-			development goals, developer goals, and community goals. Local economic development can do
-			some of the early listening on a developer's behalf when nondisclosure agreements prevent
-			full transparency — but the developer, she emphasized, still has to be visibly present in the
-			work. Listening cannot be outsourced.
+			relationship, Steffen said, is best understood as a three-legged stool of economic development
+			goals, developer goals, and community goals. Local economic development can do some of the
+			early listening on a developer's behalf when nondisclosure agreements prevent full
+			transparency — but the developer, she emphasized, still has to be visibly present in the work.
+			Listening cannot be outsourced.
 		</p>
 
 		<p class="mb-4 font-lora text-base leading-relaxed">
@@ -337,45 +336,22 @@
 		</p>
 	</section>
 
-	<!-- Closer / sidebar -->
-	<section class="mb-8 grid grid-cols-1 gap-6 md:grid-cols-3">
-		<div class="md:col-span-2">
-			<h3 class="mb-3 font-playfair text-xl font-bold">Why It Matters Here</h3>
-			<p class="mb-4 font-lora text-base leading-relaxed">
-				Both speakers closed by acknowledging that the work is, for Paulsen, personal. Many on
-				staff live in or are tied to small communities, and a number are co-op members. Rural
-				America, they argued, needs investment — particularly given current energy demand — but
-				it needs investment structured so that communities do not feel exploited at the end of it.
-			</p>
-			<p class="mb-4 font-lora text-base leading-relaxed">
-				The field guide is downloadable now, and a recording of the broadcast will be posted to
-				Paulsen's LinkedIn. Readers of this paper, especially the ones who happen to work here,
-				are encouraged to share both.
-			</p>
-		</div>
-
-		<aside class="border-2 border-black bg-neutral-100 p-4 md:col-span-1">
-			<p class="mb-2 font-special text-xs tracking-[0.2em] text-red-800 uppercase">
-				*** Notes from the Broadcast ***
-			</p>
-			<p class="mb-3 font-lora text-sm leading-relaxed">
-				<span class="font-bold">Sartorial Bulletin.</span> This paper's photo desk would be remiss
-				not to acknowledge that during the broadcast, Mr. Merritt's trousers terminated several
-				inches above his shoes — a stylistic choice the desk has chosen to characterize as
-				"studied," "continental," and "forward-leaning."
-			</p>
-			<p class="font-lora text-sm leading-relaxed">
-				<span class="font-bold">Spelling Note.</span> Auto-transcription tools rendered the agency
-				name variously as "Paulson" and "Pulsin." For the record: Paulsen.
-			</p>
-		</aside>
+	<!-- Closer -->
+	<section class="mb-8">
+		<h3 class="mb-3 font-playfair text-xl font-bold">Why It Matters Here</h3>
+		<p class="mb-4 font-lora text-base leading-relaxed">
+			Both speakers closed by acknowledging that the work is, for Paulsen, personal. Many on staff
+			live in or are tied to small communities, and a number are co-op members. Rural America, they
+			argued, needs investment — particularly given current energy demand — but it needs investment
+			structured so that communities do not feel exploited at the end of it.
+		</p>
 	</section>
 
 	<!-- Press time -->
 	<section class="mb-8">
 		<p class="font-lora text-base leading-relaxed italic">
 			At press time, no fewer than three Paulsen employees had downloaded the field guide twice,
-			apparently by accident. The trousers remain a developing story.
+			apparently by accident. Matt pants remain a developing story.
 		</p>
 	</section>
 

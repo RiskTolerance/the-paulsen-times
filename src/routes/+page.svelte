@@ -1,6 +1,7 @@
 <script lang="ts">
 	import smitherImage from '$lib/assets/Mark-Portrait.jpeg';
 	import kramerImage from '$lib/assets/1.jpg';
+	import webinarImage from '$lib/assets/webinar_images/webinar-2.png';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 
@@ -62,12 +63,12 @@
 			</p>
 
 			<figure class="mb-4">
-				<div
-					class="flex aspect-[16/9] items-center justify-center overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md"
-				>
-					<span class="font-special text-xs tracking-[0.3em] text-neutral-500 uppercase">
-						[ Photograph to come — speakers on broadcast ]
-					</span>
+				<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
+					<img
+						src={webinarImage}
+						alt="Elise Steffen and Matt Merritt seated for the Building Trust in Rural Energy Conversations webinar"
+						class="h-auto w-full grayscale"
+					/>
 				</div>
 				<figcaption class="mt-2 font-special text-xs text-neutral-600 italic">
 					Director of Partnerships Elise Steffen and Director of Public Relations Matt Merritt
