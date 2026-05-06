@@ -1,12 +1,12 @@
 <script lang="ts">
-	import kramerImage from '$lib/assets/1.jpg';
 	import smitherImage from '$lib/assets/Mark-Portrait.jpeg';
+	import kramerImage from '$lib/assets/1.jpg';
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 
 	const title = 'The Paulsen Post — Front Page';
 	const description =
-		'All the news that\u2019s fit to print (and some that isn\u2019t). A Paulsen Marketing Agency publication.';
+		'All the news that’s fit to print (and some that isn’t). A Paulsen Marketing Agency publication.';
 	const ogImage = page.url.origin + '/summary_large_image.png';
 	const canonical = page.url.origin + page.url.pathname;
 </script>
@@ -40,8 +40,8 @@
 			The Paulsen Post
 		</h1>
 		<div class="flex items-center justify-between border-t border-black pt-2 text-xs">
-			<span class="font-special">Vol. XLII, No. 2</span>
-			<span class="font-special">Wednesday, April 8, 2026</span>
+			<span class="font-special">Vol. XLII, No. 3</span>
+			<span class="font-special">Wednesday, May 6, 2026</span>
 			<span class="font-special">Price: One Good Laugh</span>
 		</div>
 	</header>
@@ -52,40 +52,41 @@
 		<article class="md:col-span-2 md:border-r-2 md:border-black md:pr-8">
 			<p class="font-special text-xs tracking-[0.2em] text-red-800 uppercase">Lead Story</p>
 			<h2 class="mt-2 mb-3 font-playfair text-3xl leading-tight font-black text-balance md:text-4xl">
-				<a href={resolve('/articles/smither-springsteen')} class="hover:underline">
-					CSO Mark Smither Delivers Stirring Sermon on the Gospel of Springsteen
+				<a href={resolve('/articles/field-guide-rural-trust')} class="hover:underline">
+					Steffen and Merritt Chart a New Map for Rural Trust
 				</a>
 			</h2>
 			<p class="mb-4 font-special text-sm text-neutral-600 italic">
-				Paulsen's Chief Strategy Officer makes the case for <em>Born to Run</em> — and for never waiting
-				to see your heroes live
+				In a webinar previewing Paulsen's downloadable Field Guide, two directors argue that the
+				developers losing rural projects are losing them long before the first public hearing
 			</p>
 
 			<figure class="mb-4">
-				<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
-					<img
-						src={smitherImage}
-						alt="Chief Strategy Officer Mark Smither addresses the agency"
-						class="h-auto w-full grayscale"
-					/>
+				<div
+					class="flex aspect-[16/9] items-center justify-center overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md"
+				>
+					<span class="font-special text-xs tracking-[0.3em] text-neutral-500 uppercase">
+						[ Photograph to come — speakers on broadcast ]
+					</span>
 				</div>
 				<figcaption class="mt-2 font-special text-xs text-neutral-600 italic">
-					Smither holds court on 1975, New Jersey, and the $30 ticket he'll never get back.
+					Director of Partnerships Elise Steffen and Director of Public Relations Matt Merritt
+					address an online audience of energy developers, agribusinesses, and economic developers.
 				</figcaption>
 			</figure>
 
 			<p
 				class="mb-4 font-lora text-base leading-relaxed first-letter:float-left first-letter:mr-2 first-letter:text-5xl first-letter:leading-none first-letter:font-bold"
 			>
-				SIOUX FALLS — Paulsen Chief Strategy Officer Mark Smither stepped away from market
-				positioning and audience analytics this week to deliver what witnesses are calling "a deeply
-				personal, occasionally tearful, and frankly unstoppable" presentation on the 1975 Bruce
-				Springsteen record <em>Born to Run</em>, an album he declared to be, quite simply, one of
-				the greatest ever made.
+				SIOUX FALLS — Director of Partnerships Elise Steffen and Director of Public Relations Matt
+				Merritt of Paulsen presented a webinar this week previewing the agency's new field guide
+				for earning social license in rural America — a document built on the premise that the
+				trust between rural communities and outside developers has frayed badly, and that the
+				standard playbook for fixing it is making things worse.
 			</p>
 
 			<a
-				href={resolve('/articles/smither-springsteen')}
+				href={resolve('/articles/field-guide-rural-trust')}
 				class="font-special text-sm tracking-[0.15em] uppercase hover:underline"
 			>
 				Continue Reading &rarr;
@@ -95,7 +96,39 @@
 		<!-- Sidebar Stories -->
 		<aside class="md:col-span-1">
 			<p class="font-special text-xs tracking-[0.2em] text-red-800 uppercase">Also In This Issue</p>
+
 			<div class="mt-2 border-t-2 border-black pt-4">
+				<figure class="mb-3">
+					<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
+						<img
+							src={smitherImage}
+							alt="Chief Strategy Officer Mark Smither addresses the agency"
+							class="h-auto w-full grayscale"
+						/>
+					</div>
+				</figure>
+				<h3 class="mb-2 font-playfair text-xl leading-tight font-black text-balance">
+					<a href={resolve('/articles/smither-springsteen')} class="hover:underline">
+						CSO Mark Smither Delivers Stirring Sermon on the Gospel of Springsteen
+					</a>
+				</h3>
+				<p class="mb-3 font-special text-xs text-neutral-600 italic">
+					Paulsen's Chief Strategy Officer makes the case for <em>Born to Run</em> — and for never
+					waiting to see your heroes live
+				</p>
+				<p class="font-lora text-sm leading-relaxed text-neutral-700">
+					An unscheduled cultural address yielded three copies of one record, zero turntables, and
+					at least one Paulsen employee weeping audibly in Minneapolis.
+				</p>
+				<a
+					href={resolve('/articles/smither-springsteen')}
+					class="mt-2 inline-block font-special text-xs tracking-[0.15em] uppercase hover:underline"
+				>
+					Continue Reading &rarr;
+				</a>
+			</div>
+
+			<div class="mt-6 border-t-2 border-black pt-4">
 				<figure class="mb-3">
 					<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
 						<img
