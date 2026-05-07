@@ -24,7 +24,7 @@
 	<meta property="og:image" content={ogImage} />
 	<meta
 		property="og:image:alt"
-		content="Elise Steffen and Matt Merritt present the Paulsen field guide"
+		content="Allyse Steffen and Matt Merritt present the Paulsen field guide"
 	/>
 
 	<meta name="twitter:card" content="summary_large_image" />
@@ -78,13 +78,14 @@
 			<div class="overflow-hidden border-2 border-neutral-300 bg-neutral-200 shadow-md">
 				<img
 					src={heroImage}
-					alt="Elise Steffen and Matt Merritt on the broadcast set in front of a slide reading Changing the Conversation"
+					alt="Allyse Steffen and Matt Merritt on the broadcast set in front of a slide reading Changing the Conversation"
 					class="h-auto w-full grayscale"
 				/>
 			</div>
 			<figcaption class="mt-2 font-special text-xs text-neutral-600 italic">
-				Director of Partnerships Elise Steffen and Director of Public Relations Matt Merritt address
-				an online audience of energy developers, agribusinesses, and economic development officials.
+				Director of Partnerships Allyse Steffen and Director of Public Relations Matt Merritt
+				address an online audience of energy developers, agribusinesses, and economic development
+				officials.
 			</figcaption>
 		</figure>
 
@@ -93,7 +94,7 @@
 			<p
 				class="mb-4 font-lora text-lg leading-relaxed first-letter:float-left first-letter:mr-2 first-letter:text-6xl first-letter:leading-none first-letter:font-bold"
 			>
-				SIOUX FALLS — Director of Partnerships Elise Steffen and Director of Public Relations Matt
+				SIOUX FALLS — Director of Partnerships Allyse Steffen and Director of Public Relations Matt
 				Merritt of Paulsen presented a webinar this week previewing the agency's new field guide for
 				earning social license in rural America — a document built on the premise that the trust
 				between rural communities and outside developers has frayed badly, and that the standard
